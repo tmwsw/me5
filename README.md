@@ -49,13 +49,16 @@
 
 ## Структура проекта
 
-├── data/ # Исходные данные
+```
+ME5/
+|--data/ # Исходные данные
 │ └── enron_spam_data.csv
 ├── preprocessing.ipynb # Предобработка данных
 ├── model_training.ipynb # Обучение модели
 ├── vectorizer.pkl # Сохраненный векторизатор
 ├── knn_model.pkl # Обученная модель k-NN
 └── classification_app.py # Приложение для классификации
+```
 
 
 ## Ключевые особенности
